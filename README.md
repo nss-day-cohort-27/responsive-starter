@@ -82,4 +82,6 @@ Include the following details:
 * Feature 3 animals with image, title, copy
 * Include a footer with additional links to other zoos.
 * Article about the new area, conservation details, or events.
+   * Try out a button group
+   * Try out a form inputs.
 
