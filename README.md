@@ -75,3 +75,11 @@ Disables zooming on mobile devices
 ### Read Bootstrap docs for more options including Typography
 * https://getbootstrap.com/docs/4.0/content/typography/
 
+## Practice
+### Using Bootstrap, create the homepage for the Zoo
+Include the following details:
+* Navbar with Logo(text) and links to three areas of the zoo.
+* Feature 3 animals with image, title, copy
+* Include a footer with additional links to other zoos.
+* Article about the new area, conservation details, or events.
+
