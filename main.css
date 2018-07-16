@@ -1,0 +1,29 @@
+.container {
+	background-color: lightblue;
+}
+
+.container-fluid {
+	background-color: lightskyblue;
+}
+
+h1 {
+	color:white;
+}
+
+.media {
+	background-color: lightsalmon;
+}
+
+.col, .col-6 {
+	background-color: rgba(86,61,124,.35);
+    border: 1px solid rgba(86,61,124,.85);
+}
+
+.nav {
+	justify-content: center;
+	background-color: thistle;
+}
+
+.highlight {
+	background-color: lemonchiffon;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Responsive Starter</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous">
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <div class="container-fluid">
+      <h1>Basic Layout with Bootstrap (v.4)</h1>
+      <p>Bootstrap 4 incorporates
+         <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox</a>
+      </p>
+      <!-- equal sizes - add unit-less classes like: col-->
+      <div class="row">
+         <div class="col">ONE 1 ONE</div>
+         <div class="col-6">TWO 2 TWO</div>
+         <div class="col">THREE 3THREE</div>
+      </div>
+      <div class="row">
+         <div class="col">ONE 1 ONE</div>
+         <div class="col-3">TWO 2 TWO</div>
+         <div class="col">THREE 3 THREE</div>
+      </div>
+      <div class="row justify-content-md-center">
+         <div class="col col-lg-2">
+            1 of 3
+         </div>
+         <div class="col-md-auto">
+            <!-- this one only get the necessary width for the content -->
+            I only need to be this big! What?
+         </div>
+         <div class="col col-lg-2">
+            3 of 3
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col">ONE 1 ONE</div>
+         <div class="col">TWO 2 TWO</div>
+         <div class="w-100"></div>
+         <!-- used to create new line and columns-->
+         <div class="col">THREE 3THREE</div>
+         <div class="col">FOUR 4 FOUR</div>
+      </div>
+
+   </div>
+
+   <hr>
+   <div class="container">
+      <h3>Use of Media Object</h3>
+      <div class="media">
+         <img src="http://mabellszoo.com/images/mz_icon_72.png">
+         <div class="media-body">
+            <h5>Blog Post Layouts are Easy</h5>
+            <p>Jelly jelly sugar plum bonbon. Lemon drops sweet dragée chocolate bar tiramisu caramels. Jelly-o apple pie icing
+               cotton candy bear claw. Ice cream pie caramels icing candy carrot cake powder.</p>
+         </div>
+      </div>
+      <div class="media">
+         <h1>
+            <mark>:0 &nbsp;</mark>
+         </h1>
+         <div class="media-body">
+            <h5>Really Easy</h5>
+            <p>Gummi bears gummi bears jelly beans dragée tootsie roll croissant caramels liquorice. Halvah bonbon soufflé dragée
+               liquorice icing liquorice gingerbread bonbon. Powder sugar plum marzipan.</p>
+         </div>
+      </div>
+   </div>
+<hr>
+<div class="container">
+   <ul>
+      <li>Typography - out of the box it is great - but you can kick it up with
+         <a href="http://getbootstrap.com/docs/4.0/content/typography/">additional tags</a>
+      </li>
+      <li>How about a nav bar?
+         <div class="nav">
+            <ul class="list-inline">
+               <li class="list-inline-item">
+                  <a href="#">About</a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="#">Products</a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="#">Contact Us</a>
+               </li>
+            </ul>
+         </div>
+      </li>
+   </ul>
+</div>
+<hr>
+<div class="container">
+   <h2>All About That GRID
+      <small class="text-muted"> about that grid. no table.</small>
+   </h2>
+   <!-- equal sizes - add unit-less classes like: col-->
+   <!-- try this out with col-lg -->
+   <div class="row">
+      <div class="col">
+         <img src="http://mabellszoo.com/images/mz_01.jpg" class="img-fluid" alt="Mabells Zoo One Elephant">
+      </div>
+      <div class="col">
+         <img src="http://mabellszoo.com/images/mz_02.jpg" class="img-fluid" alt="Mabells Zoo Two Polar Bears">
+      </div>
+      <div class="col">
+         <img src="http://mabellszoo.com/images/mz_03.jpg" class="img-fluid" alt="Mabells Zoo Three Seals">
+      </div>
+   </div>
+   <!-- Variations on a theme -->
+   <!-- flexbox alignment start, center, end-->
+   <div class="row align-items-center">
+      <div class="col-6">
+         <img src="http://mabellszoo.com/images/mz_04.jpg" class="img-fluid" alt="Mabells Zoo Four Snakes">
+      </div>
+      <div class="col">
+         <img src="http://mabellszoo.com/images/mz_05.jpg" class="img-fluid" alt="Mabells Zoo Five Monkeys">
+      </div>
+      <div class="col">
+         <img src="http://mabellszoo.com/images/mz_06.jpg" class="img-fluid" alt="Mabells Zoo Six Koala Bears">
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="col-4">
+         <img src="http://mabellszoo.com/images/mz_07.jpg" class="img-thumbnail" alt="Mabells Zoo Seven Frogs">
+      </div>
+      <div class="col">
+         <img src="http://mabellszoo.com/images/mz_08.jpg" class="img-fluid" alt="Mabells Zoo Eight Parrots">
+      </div>
+
+   </div>
+   <div class="row">
+      <div class="col">
+         <img src="http://mabellszoo.com/images/mz_09.jpg" class="rounded float-left" alt="Mabells Zoo Nine Penquins">
+         <img src="http://mabellszoo.com/images/mz_10.jpg" class="img-fluid rounded float-right" alt="Mabells Zoo Ten Fish">
+      </div>
+   </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
